@@ -1,6 +1,6 @@
-## functions1
+# functions1
 
-# create a function that receives a string and print the inverted string, remember that to print an element i you can use printf("%c",string[i]); 
+## create a function that receives a string and print the inverted string, remember that to print an element i you can use printf("%c",string[i]); 
 
 #include <stdio.h>
 
