@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include<string.h>
+
+void Comparison (char userInput[50], char secondInput[50]){
+	int i;
+	int largo = strlen(userInput);
+	for(i=0; i<=largo; i++){
+		if((userInput[i] =! secondInput[i])){
+			printf("%c", userInput[i]);
+		}else
+			printf("%i", 0);
+	}
+}
+	
+	int main(void) {
+		char userInput[50];
+		char secondInput[50];
+		scanf("%s",&userInput);
+		scanf("%s",&secondInput);
+		Comparison(userInput, secondInput);
+		return 0;
+	}
+	
