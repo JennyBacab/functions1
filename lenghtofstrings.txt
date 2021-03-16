@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include<string.h>
+
+void Lenghty(char userInput[900],char secondInput[800]){
+	
+		int primerlargo = strlen(userInput);
+		int segundolargo = strlen(secondInput);
+		
+		if(primerlargo!= segundolargo){
+			printf("%i", 1);
+		}else 
+		   printf("%i",0);
+	 }
+
+	
+	int main(void) {
+	char userInput[900];
+	char secondInput[800];
+	scanf("%s", &userInput);
+	scanf("%s", &secondInput);
+	Lenghty(userInput, secondInput);
+	return 0;
+	}
